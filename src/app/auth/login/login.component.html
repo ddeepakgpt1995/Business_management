@@ -1,0 +1,17 @@
+<form [formGroup]="authForm" (ngSubmit)="onSubmit">
+  <!-- <label for="email">Email/User id</label>
+    <input type="text" id="email" class="form-control" name="email"><br>
+    <label for="Password">Password</label>
+    <input type="text" id="Password" class="form-control" name="Password">
+    <button type="submit" > Login</button> -->
+  <mat-form-field appearance="outline">
+    <mat-label>Email / User name</mat-label>
+    <input matInput>
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Password</mat-label>
+    <input matInput>
+  </mat-form-field>
+  
+
+</form>
