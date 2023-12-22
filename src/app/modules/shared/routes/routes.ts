@@ -20,5 +20,4 @@ export const allRoutes: Routes = [
           (m) => m.DashboardModule
         )
   },
-
 ]

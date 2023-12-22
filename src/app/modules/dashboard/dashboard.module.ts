@@ -5,6 +5,7 @@ import { HeaderComponent } from 'src/app/layout/header/header.component';
 import { FooterComponent } from 'src/app/layout/footer/footer.component';
 import { DashboardcmpComponent } from 'src/app/layout/dashboardCmp/dashboardcmp.component';
 import { SidenavbarComponent } from 'src/app/layout/side-navbar/sidenavbar.component';
+import { MatModuleModule } from '../shared/modules/mat-module/mat-module.module';
 
  const components=[
   HeaderComponent,
@@ -19,7 +20,8 @@ import { SidenavbarComponent } from 'src/app/layout/side-navbar/sidenavbar.compo
   ],
   imports: [
     CommonModule,
-    DashboardRoutingModule
+    DashboardRoutingModule,
+    MatModuleModule
   ],
   exports:[
     // components --> no need to export because no these compoents are not required outside of this feature module
