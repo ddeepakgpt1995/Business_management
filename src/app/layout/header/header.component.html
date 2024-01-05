@@ -1,47 +1,66 @@
-<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+<div class="main">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#" sty>Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-direcion-row ">
-                <li class="nav-item">
-                    <a class="nav-link active navbar-brand" aria-current="page" href="#">Home</a>
-                </li>
-                <li>
-                    <form class="d-flex ms-auto ">
-                        <div class="input-group mb-3 ">
-                            <input type="text" class="form-control" placeholder="Recipient's username"
-                                aria-label="Recipient's username" aria-describedby="button-addon2">
-                            <button class="btn btn-primary" type="button" id="button-addon2">
-                                
-                                <i class="bi bi-search"></i>
-                            </button>
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                            </ul>
+
+                            <!-- Search bar goes here -->
+                            <form class="d-flex w-50 mx-auto ">
+                                <input class="form-control form-control-sm  me-2  " type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+                            </form>
+
+                            <!-- Dropdown goes here -->
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                            fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                                            <path fill-rule="evenodd"
+                                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                                        </svg>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-left-to-right dropdown-menu-sm ">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
-                    </form>
 
-                </li>
-
-                <li class="nav-item dropdown me-0">
-                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                          </svg>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-            </ul>
-
+                    </div>
+                </nav>
+            </div>
+            <div class="col-12">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid laborum facilis modi
+                    perspiciatis minima obcaecati est, quaerat nesciunt iste libero illo non tempora excepturi
+                    laboriosam? Fugit cumque sapiente illo ab id quasi! Totam expedita asperiores alias. Reiciendis,
+                    optio ea adipisci dignissimos distinctio inventore labore nesciunt numquam vero eveniet saepe?</p>
+            </div>
         </div>
+
     </div>
-</nav>
+</div>

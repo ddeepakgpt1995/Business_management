@@ -6,7 +6,7 @@ import { FooterComponent } from 'src/app/layout/footer/footer.component';
 import { DashboardcmpComponent } from 'src/app/layout/dashboardCmp/dashboardcmp.component';
 import { SidenavbarComponent } from 'src/app/layout/side-navbar/sidenavbar.component';
 import { MatModuleModule } from '../shared/modules/mat-module/mat-module.module';
-
+import { PrimeNgModule } from '../shared/modules/prime-ng/prime-ng.module';
  const components=[
   HeaderComponent,
   FooterComponent,
@@ -21,7 +21,9 @@ import { MatModuleModule } from '../shared/modules/mat-module/mat-module.module'
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    MatModuleModule
+    MatModuleModule, 
+    PrimeNgModule
+  
   ],
   exports:[
     // components --> no need to export because no these compoents are not required outside of this feature module
